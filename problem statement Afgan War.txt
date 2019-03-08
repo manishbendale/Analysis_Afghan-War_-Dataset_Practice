@@ -1,0 +1,12 @@
+Analysis of Afghan War Dairies 
+The data were written by soldiers and intelligence officers of the United States Military. Too keep it simple, we will analyze only four of the available columns (Type, Category, Region and Attack On) in the dataset. The dataset is made available in next section. 
+Problem Statements: 
+Below are few of the problem statement that we have chosen to work on this dataset. 
+In Pig 
+To examine all events that involve explosive hazards. 
+To examine explosive events that involve Improvised Explosive Devices (IEDs). 
+Technology/Software Used: 
+Hadoop environment 
+Apache Pig 
+Environment Creation for Creating Solution 
+To execute the problem statements, first we have downloaded the data file in form of CSV file (link is on page 1). For simplicity, we have renamed the file and moved the file to HDFS. For moving the file from local to HDFS, command is: 
